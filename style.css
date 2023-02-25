@@ -376,10 +376,7 @@ body-slide-container swiper{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #000000;
-  background-image:url(occ.jpg);
-  background-size: cover;
-  background-position: center;
+ 
 }
 
 .card {
@@ -388,12 +385,13 @@ body-slide-container swiper{
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 300px;
+  width:250px;
+  height: 350PX;
 }
 
 .card img {
   width: 100%;
-  height: auto;
+  height: 70%;
 }
 
 .card-content {
@@ -421,7 +419,7 @@ body-slide-container swiper{
 
 h1{
 
-  color: #ffc916;
+  color: #f7d205;
 }
 
 .ha{
@@ -432,7 +430,8 @@ h1{
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: #e6810e;
+  font-weight: bold;
+  color: #030303;
   line-height: 1.5;
  
   padding: 100px;
@@ -442,8 +441,39 @@ h1{
 
 
 }
-.ha.ji{
+.oc{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 60px;
+  color: #000000;
+  line-height: 1.5;
+  background-image:url(occ.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
+.pa{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 60px;
+  color: #e6810e;
+  line-height: 1.5;
+  background-image:url(occ.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.ma{
+  
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #e6810e;
+  line-height: 1.5;
+  background-image:url(occ.jpg);
+  background-size: cover;
+  background-position: center;
 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   
 }
