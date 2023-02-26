@@ -11,7 +11,7 @@ padding : 0;
 .container{
     width: 100% ;
     height: 100vh ;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.863),transparent),url(1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.863),transparent),url(coo1.jpg);
 background-size: cover;
     
     background-position: center;
@@ -30,6 +30,7 @@ nav{
     width: 90px ;
     cursor: pointer;
 }
+
 .cart-icon{
     width: 30px ; 
     cursor: pointer;
@@ -38,6 +39,7 @@ nav ul {
     flex: 1;
     text-align: right;
     padding-right: 30px;
+
 }
 nav ul li{
   font-weight: bold;
@@ -79,8 +81,8 @@ nav ul li a:hover::after{
     line-height: 160px;
     margin-left: -10px;
     color: transparent;
-    -webkit-text-stroke: 1px #000000;
-    background: url(4.png);
+    -webkit-text-stroke: 1px #eecc09f3;
+  /*  background: url(2.png);*/
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
@@ -447,7 +449,7 @@ h1{
   font-size: 60px;
   color: #000000;
   line-height: 1.5;
-  background-image:url(occ.jpg);
+  background-image:url(coo.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -458,7 +460,7 @@ h1{
   font-size: 60px;
   color: #e6810e;
   line-height: 1.5;
-  background-image:url(occ.jpg);
+  background-image:url(coo.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -466,14 +468,16 @@ h1{
   
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: #e6810e;
-  line-height: 1.5;
-  background-image:url(occ.jpg);
+  color: #eecc09f3;
+  line-height: 1;
+  background-image:url(coo.jpg);
   background-size: cover;
   background-position: center;
 
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
+ 
+  background-position: 0 0;
 }
